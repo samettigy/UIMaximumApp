@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		1114446C2AE645E40097DBB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114446B2AE645E40097DBB2 /* AppDelegate.swift */; };
 		1114446E2AE645E40097DBB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114446D2AE645E40097DBB2 /* SceneDelegate.swift */; };
-		111444702AE645E40097DBB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114446F2AE645E40097DBB2 /* ViewController.swift */; };
+		111444702AE645E40097DBB2 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114446F2AE645E40097DBB2 /* HomePageViewController.swift */; };
 		111444732AE645E40097DBB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111444712AE645E40097DBB2 /* Main.storyboard */; };
 		111444752AE645E60097DBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111444742AE645E60097DBB2 /* Assets.xcassets */; };
 		111444782AE645E60097DBB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111444762AE645E60097DBB2 /* LaunchScreen.storyboard */; };
+		1168F2462AE685CA00E16CAB /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168F2452AE685CA00E16CAB /* DefaultButton.swift */; };
+		1168F2482AE7BF4400E16CAB /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168F2472AE7BF4400E16CAB /* Menu.swift */; };
+		1168F24A2AE7C24200E16CAB /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168F2492AE7C24200E16CAB /* Phone.swift */; };
+		1168F24C2AE7C2A600E16CAB /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168F24B2AE7C2A600E16CAB /* Store.swift */; };
+		1168F24E2AE7C38B00E16CAB /* Fashion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168F24D2AE7C38B00E16CAB /* Fashion.swift */; };
+		1168F2532AE7CDE400E16CAB /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168F2522AE7CDE400E16CAB /* CollectionView.swift */; };
+		1168F2552AE7CEBD00E16CAB /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168F2542AE7CEBD00E16CAB /* MenuCell.swift */; };
+		1168F2572AE7E2C600E16CAB /* MagazaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168F2562AE7E2C600E16CAB /* MagazaCell.swift */; };
+		1168F2592AE800FE00E16CAB /* DefaultCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168F2582AE800FE00E16CAB /* DefaultCollectionView.swift */; };
+		1168F25B2AE8016100E16CAB /* ModaFirsatlariCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168F25A2AE8016100E16CAB /* ModaFirsatlariCell.swift */; };
+		1168F25D2AE8063300E16CAB /* CepTelefonuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168F25C2AE8063300E16CAB /* CepTelefonuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		111444682AE645E40097DBB2 /* UIMaximumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIMaximumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1114446B2AE645E40097DBB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1114446D2AE645E40097DBB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1114446F2AE645E40097DBB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1114446F2AE645E40097DBB2 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		111444722AE645E40097DBB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		111444742AE645E60097DBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		111444772AE645E60097DBB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		111444792AE645E60097DBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1168F2452AE685CA00E16CAB /* DefaultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
+		1168F2472AE7BF4400E16CAB /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		1168F2492AE7C24200E16CAB /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		1168F24B2AE7C2A600E16CAB /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		1168F24D2AE7C38B00E16CAB /* Fashion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fashion.swift; sourceTree = "<group>"; };
+		1168F2522AE7CDE400E16CAB /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		1168F2542AE7CEBD00E16CAB /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		1168F2562AE7E2C600E16CAB /* MagazaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagazaCell.swift; sourceTree = "<group>"; };
+		1168F2582AE800FE00E16CAB /* DefaultCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCollectionView.swift; sourceTree = "<group>"; };
+		1168F25A2AE8016100E16CAB /* ModaFirsatlariCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModaFirsatlariCell.swift; sourceTree = "<group>"; };
+		1168F25C2AE8063300E16CAB /* CepTelefonuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CepTelefonuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,74 @@
 		1114446A2AE645E40097DBB2 /* UIMaximumApp */ = {
 			isa = PBXGroup;
 			children = (
-				1114446B2AE645E40097DBB2 /* AppDelegate.swift */,
-				1114446D2AE645E40097DBB2 /* SceneDelegate.swift */,
-				1114446F2AE645E40097DBB2 /* ViewController.swift */,
+				1168F2512AE7CDCE00E16CAB /* Extension */,
+				1168F2432AE64A5B00E16CAB /* Default */,
+				1168F2422AE64A4900E16CAB /* Controller */,
+				1168F2412AE64A3700E16CAB /* View */,
+				1168F2402AE64A1D00E16CAB /* Entity */,
 				111444712AE645E40097DBB2 /* Main.storyboard */,
-				111444742AE645E60097DBB2 /* Assets.xcassets */,
-				111444762AE645E60097DBB2 /* LaunchScreen.storyboard */,
 				111444792AE645E60097DBB2 /* Info.plist */,
+				1168F2442AE64A7D00E16CAB /* Other Files */,
 			);
 			path = UIMaximumApp;
+			sourceTree = "<group>";
+		};
+		1168F2402AE64A1D00E16CAB /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1168F2472AE7BF4400E16CAB /* Menu.swift */,
+				1168F2492AE7C24200E16CAB /* Phone.swift */,
+				1168F24B2AE7C2A600E16CAB /* Store.swift */,
+				1168F24D2AE7C38B00E16CAB /* Fashion.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		1168F2412AE64A3700E16CAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1168F2542AE7CEBD00E16CAB /* MenuCell.swift */,
+				1168F2562AE7E2C600E16CAB /* MagazaCell.swift */,
+				1168F25A2AE8016100E16CAB /* ModaFirsatlariCell.swift */,
+				1168F25C2AE8063300E16CAB /* CepTelefonuCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1168F2422AE64A4900E16CAB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1114446F2AE645E40097DBB2 /* HomePageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1168F2432AE64A5B00E16CAB /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				1168F2452AE685CA00E16CAB /* DefaultButton.swift */,
+				1168F2582AE800FE00E16CAB /* DefaultCollectionView.swift */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		1168F2442AE64A7D00E16CAB /* Other Files */ = {
+			isa = PBXGroup;
+			children = (
+				111444762AE645E60097DBB2 /* LaunchScreen.storyboard */,
+				111444742AE645E60097DBB2 /* Assets.xcassets */,
+				1114446D2AE645E40097DBB2 /* SceneDelegate.swift */,
+				1114446B2AE645E40097DBB2 /* AppDelegate.swift */,
+			);
+			path = "Other Files";
+			sourceTree = "<group>";
+		};
+		1168F2512AE7CDCE00E16CAB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1168F2522AE7CDE400E16CAB /* CollectionView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +219,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				111444702AE645E40097DBB2 /* ViewController.swift in Sources */,
+				1168F24E2AE7C38B00E16CAB /* Fashion.swift in Sources */,
+				1168F24C2AE7C2A600E16CAB /* Store.swift in Sources */,
+				111444702AE645E40097DBB2 /* HomePageViewController.swift in Sources */,
+				1168F25D2AE8063300E16CAB /* CepTelefonuCell.swift in Sources */,
+				1168F2572AE7E2C600E16CAB /* MagazaCell.swift in Sources */,
+				1168F25B2AE8016100E16CAB /* ModaFirsatlariCell.swift in Sources */,
+				1168F2592AE800FE00E16CAB /* DefaultCollectionView.swift in Sources */,
 				1114446C2AE645E40097DBB2 /* AppDelegate.swift in Sources */,
+				1168F2552AE7CEBD00E16CAB /* MenuCell.swift in Sources */,
 				1114446E2AE645E40097DBB2 /* SceneDelegate.swift in Sources */,
+				1168F2532AE7CDE400E16CAB /* CollectionView.swift in Sources */,
+				1168F2462AE685CA00E16CAB /* DefaultButton.swift in Sources */,
+				1168F24A2AE7C24200E16CAB /* Phone.swift in Sources */,
+				1168F2482AE7BF4400E16CAB /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
